@@ -169,13 +169,18 @@ This ensures that only valid proposals are submitted and every submission is rec
 
 # 9. Testing Approach
 
-JUnit 5 is used to verify:
+JUnit 5 is used to verify the core business logic of the application by testing the service layer directly.
 
-* Customer validation.
-* Proposal validation.
-* Successful proposal creation.
-* Successful proposal submission.
-* Business rule failures.
+The implemented test cases include:
+
+- Successful customer creation.
+- Customer age validation (age less than 18).
+- Customer age validation (age greater than 65).
+- Mandatory first name validation.
+- Successful proposal creation.
+- Successful proposal submission.
+- Policy status update from `CREATED` to `SUBMITTED`.
+- Policy number generation during proposal submission.
 
 ---
 
