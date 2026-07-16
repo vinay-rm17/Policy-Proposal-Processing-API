@@ -11,8 +11,8 @@ This project is implemented using **Spring Boot 3.x** and stores all data in-mem
 
 ## Technology Stack
 
-* Java 21
-* Spring Boot 3.x
+* Java 17
+* Spring Boot 4.0.0
 * Maven
 * Java Collections (ConcurrentHashMap, synchronizedList)
 * JUnit 5
