@@ -336,10 +336,5 @@ Or run the test classes directly from your IDE.
 
 ---
 
-# Author
 
-R M Vinay
-=======
-# Policy-Proposal-Processing-API
-##Description
->>>>>>> a6e01a6fc7a10245db0b0ec5090f34af9aca97f3
+
