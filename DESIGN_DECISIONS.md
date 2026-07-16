@@ -204,20 +204,3 @@ Because the assignment does not allow a database:
 * No persistent storage is available.
 * Relationships are maintained manually using IDs.
 
-These trade-offs are acceptable because the objective is to demonstrate backend design and business logic rather than persistence.
-
----
-
-# 12. Future Improvements
-
-If extended for production use, the following enhancements could be added:
-
-* Database integration using Spring Data JPA.
-* DTOs for request and response objects.
-* Bean Validation annotations (`@Valid`).
-* Global exception handling using `@ControllerAdvice`.
-* Logging with SLF4J.
-* Swagger/OpenAPI documentation.
-* Authentication and authorization using Spring Security.
-* Pagination and filtering for APIs.
-* Integration tests using MockMvc.
